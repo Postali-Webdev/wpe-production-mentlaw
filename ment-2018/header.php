@@ -120,6 +120,7 @@ if ($disable_qode_seo != "yes") {
 	<a href="#" id="menu-icon"><div><hr><hr><hr></div></a>
 
 	 <div id="slide-nav">
+        <nav role="navigation">
 	   <?php
         // Slider Nav
         $args = array(
@@ -128,6 +129,7 @@ if ($disable_qode_seo != "yes") {
         );
         wp_nav_menu( $args );
     	?>
+        </nav>
 	</div>
 	
 </header>
